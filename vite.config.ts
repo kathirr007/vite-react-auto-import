@@ -4,8 +4,8 @@ import IconsResolver from 'unplugin-icons/resolver'
 import Icons from 'unplugin-icons/vite'
 import { defineConfig } from 'vite'
 import AutoImport from 'unplugin-auto-import/vite'
-import { watchDirectoryPlugin } from './src/utils/watchDirectory'
 import { getComponentImports } from './src/utils/importComponents'
+import VitePluginRestart from 'vite-plugin-restart-2'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -15,9 +15,14 @@ export default defineConfig({
       compiler: 'jsx',
       jsx: 'react',
     }),
-    watchDirectoryPlugin({
-      directoryToWatch: './src/components', // Watch only the components directory
+    /* WatchDirectoryPlugin({
+      directoryToWatch: ['./src/components', './src/hooks', './src/composables'], // Watch only the components directory
       restartServerOn: ['add', 'unlink'],
+      extensions: ['.js', '.ts', '.jsx', '.tsx'],
+    }), */
+    VitePluginRestart({
+      restart: ['./src/components/**/*.*', './src/hooks/**/*.*', './src/composables/**/*.*'], // Watch only the components directory
+      eventsToWatch: ['add', 'unlink'],
     }),
     AutoImport({
       include: [
@@ -31,7 +36,7 @@ export default defineConfig({
         'ahooks'
       ],
       dts: './src/auto-imports.d.ts',
-      dirs: ['src/layouts', 'src/views'],
+      dirs: ['src/layouts', 'src/views', 'src/composables', 'src/hooks'],
       eslintrc: {
         enabled: true,
       },

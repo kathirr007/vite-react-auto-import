@@ -127,6 +127,11 @@
     "LayoutsMainLayout": true,
     "Test": true,
     "BaseButton": true,
-    "BaseInput": true
+    "BaseInput": true,
+    "Test2": true,
+    "useDark": true,
+    "useInput": true,
+    "BaseTest": true,
+    "BaseXxx": true
   }
 }

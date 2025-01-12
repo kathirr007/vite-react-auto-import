@@ -4,9 +4,15 @@
     "module": "esnext",
     "moduleResolution": "node",
     "strict": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
   },
   "include": [
-    "vite.config.*"
+    "vite.config.*",
+    "src/**/*",
+    "vite.env.d.ts",
+    "auto-imports.d.ts",
+    "components.d.ts"
   ]
 }
