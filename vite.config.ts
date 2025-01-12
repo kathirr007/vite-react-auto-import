@@ -21,7 +21,7 @@ export default defineConfig({
       extensions: ['.js', '.ts', '.jsx', '.tsx'],
     }), */
     VitePluginRestart({
-      restart: ['./src/components/**/*.*', './src/hooks/**/*.*', './src/composables/**/*.*'], // Watch only the components directory
+      restart: ['./src/components/**/*.*', './src/hooks/**/*.*', './src/composables/**/*.*'], // File globs to watch
       eventsToWatch: ['add', 'unlink'],
     }),
     AutoImport({
