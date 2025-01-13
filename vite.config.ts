@@ -21,8 +21,11 @@ export default defineConfig({
       extensions: ['.js', '.ts', '.jsx', '.tsx'],
     }), */
     VitePluginRestart({
-      restart: ['./src/components/**/*.*', './src/hooks/**/*.*', './src/composables/**/*.*'], // File globs to watch
+      restart: ['./src/components/**/*.*'], // File globs to watch
       eventsToWatch: ['add', 'unlink'],
+    }),
+    VitePluginRestart({
+      restart: ['./src/hooks/**/*.*'], // File globs to watch
     }),
     AutoImport({
       include: [
@@ -37,15 +40,13 @@ export default defineConfig({
       ],
       dts: './src/auto-imports.d.ts',
       dirs: ['src/layouts', 'src/views', 'src/composables', 'src/hooks'],
-      eslintrc: {
-        enabled: true,
-      },
       defaultExportByFilename: true,
       resolvers: [
         IconsResolver({
           componentPrefix: 'Icon',
         }),
       ],
+      dumpUnimportItems: true
     }),
   ],
   resolve: {

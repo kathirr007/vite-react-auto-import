@@ -25,6 +25,8 @@ declare global {
   const Test: typeof import('@/components/Test.tsx')['Test']
   const createRef: typeof import('react')['createRef']
   const forwardRef: typeof import('react')['forwardRef']
+  const isDesktop: typeof import('./hooks/useInput')['isDesktop']
+  const isMobile: typeof import('./hooks/useInput')['isMobile']
   const lazy: typeof import('react')['lazy']
   const memo: typeof import('react')['memo']
   const startTransition: typeof import('react')['startTransition']

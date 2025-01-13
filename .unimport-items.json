@@ -1,0 +1,652 @@
+[
+  {
+    "from": "@/components/Button.tsx",
+    "name": "Button",
+    "as": "Button"
+  },
+  {
+    "from": "@/components/Input.tsx",
+    "name": "Input",
+    "as": "Input"
+  },
+  {
+    "from": "@/components/base/Button.tsx",
+    "name": "Button",
+    "as": "BaseButton"
+  },
+  {
+    "from": "@/components/base/Input.tsx",
+    "name": "Input",
+    "as": "BaseInput"
+  },
+  {
+    "from": "react",
+    "name": "useState",
+    "as": "useState"
+  },
+  {
+    "from": "react",
+    "name": "useCallback",
+    "as": "useCallback"
+  },
+  {
+    "from": "react",
+    "name": "useMemo",
+    "as": "useMemo"
+  },
+  {
+    "from": "react",
+    "name": "useEffect",
+    "as": "useEffect"
+  },
+  {
+    "from": "react",
+    "name": "useRef",
+    "as": "useRef"
+  },
+  {
+    "from": "react",
+    "name": "useContext",
+    "as": "useContext"
+  },
+  {
+    "from": "react",
+    "name": "useReducer",
+    "as": "useReducer"
+  },
+  {
+    "from": "react",
+    "name": "useImperativeHandle",
+    "as": "useImperativeHandle"
+  },
+  {
+    "from": "react",
+    "name": "useDebugValue",
+    "as": "useDebugValue"
+  },
+  {
+    "from": "react",
+    "name": "useDeferredValue",
+    "as": "useDeferredValue"
+  },
+  {
+    "from": "react",
+    "name": "useLayoutEffect",
+    "as": "useLayoutEffect"
+  },
+  {
+    "from": "react",
+    "name": "useTransition",
+    "as": "useTransition"
+  },
+  {
+    "from": "react",
+    "name": "startTransition",
+    "as": "startTransition"
+  },
+  {
+    "from": "react",
+    "name": "useSyncExternalStore",
+    "as": "useSyncExternalStore"
+  },
+  {
+    "from": "react",
+    "name": "useInsertionEffect",
+    "as": "useInsertionEffect"
+  },
+  {
+    "from": "react",
+    "name": "useId",
+    "as": "useId"
+  },
+  {
+    "from": "react",
+    "name": "lazy",
+    "as": "lazy"
+  },
+  {
+    "from": "react",
+    "name": "memo",
+    "as": "memo"
+  },
+  {
+    "from": "react",
+    "name": "createRef",
+    "as": "createRef"
+  },
+  {
+    "from": "react",
+    "name": "forwardRef",
+    "as": "forwardRef"
+  },
+  {
+    "from": "react-router-dom",
+    "name": "useOutletContext",
+    "as": "useOutletContext"
+  },
+  {
+    "from": "react-router-dom",
+    "name": "useHref",
+    "as": "useHref"
+  },
+  {
+    "from": "react-router-dom",
+    "name": "useInRouterContext",
+    "as": "useInRouterContext"
+  },
+  {
+    "from": "react-router-dom",
+    "name": "useLocation",
+    "as": "useLocation"
+  },
+  {
+    "from": "react-router-dom",
+    "name": "useNavigationType",
+    "as": "useNavigationType"
+  },
+  {
+    "from": "react-router-dom",
+    "name": "useNavigate",
+    "as": "useNavigate"
+  },
+  {
+    "from": "react-router-dom",
+    "name": "useOutlet",
+    "as": "useOutlet"
+  },
+  {
+    "from": "react-router-dom",
+    "name": "useParams",
+    "as": "useParams"
+  },
+  {
+    "from": "react-router-dom",
+    "name": "useResolvedPath",
+    "as": "useResolvedPath"
+  },
+  {
+    "from": "react-router-dom",
+    "name": "useRoutes",
+    "as": "useRoutes"
+  },
+  {
+    "from": "react-router-dom",
+    "name": "useLinkClickHandler",
+    "as": "useLinkClickHandler"
+  },
+  {
+    "from": "react-router-dom",
+    "name": "useSearchParams",
+    "as": "useSearchParams"
+  },
+  {
+    "from": "react-router-dom",
+    "name": "Link",
+    "as": "Link"
+  },
+  {
+    "from": "react-router-dom",
+    "name": "NavLink",
+    "as": "NavLink"
+  },
+  {
+    "from": "react-router-dom",
+    "name": "Navigate",
+    "as": "Navigate"
+  },
+  {
+    "from": "react-router-dom",
+    "name": "Outlet",
+    "as": "Outlet"
+  },
+  {
+    "from": "react-router-dom",
+    "name": "Route",
+    "as": "Route"
+  },
+  {
+    "from": "react-router-dom",
+    "name": "Routes",
+    "as": "Routes"
+  },
+  {
+    "from": "react-i18next",
+    "name": "useTranslation",
+    "as": "useTranslation"
+  },
+  {
+    "from": "ahooks",
+    "name": "useAntdTable",
+    "as": "useAntdTable"
+  },
+  {
+    "from": "ahooks",
+    "name": "useAsyncEffect",
+    "as": "useAsyncEffect"
+  },
+  {
+    "from": "ahooks",
+    "name": "useBoolean",
+    "as": "useBoolean"
+  },
+  {
+    "from": "ahooks",
+    "name": "useClickAway",
+    "as": "useClickAway"
+  },
+  {
+    "from": "ahooks",
+    "name": "useControllableValue",
+    "as": "useControllableValue"
+  },
+  {
+    "from": "ahooks",
+    "name": "useCookieState",
+    "as": "useCookieState"
+  },
+  {
+    "from": "ahooks",
+    "name": "useCountDown",
+    "as": "useCountDown"
+  },
+  {
+    "from": "ahooks",
+    "name": "useCounter",
+    "as": "useCounter"
+  },
+  {
+    "from": "ahooks",
+    "name": "useCreation",
+    "as": "useCreation"
+  },
+  {
+    "from": "ahooks",
+    "name": "useDebounce",
+    "as": "useDebounce"
+  },
+  {
+    "from": "ahooks",
+    "name": "useDebounceEffect",
+    "as": "useDebounceEffect"
+  },
+  {
+    "from": "ahooks",
+    "name": "useDebounceFn",
+    "as": "useDebounceFn"
+  },
+  {
+    "from": "ahooks",
+    "name": "useDeepCompareEffect",
+    "as": "useDeepCompareEffect"
+  },
+  {
+    "from": "ahooks",
+    "name": "useDeepCompareLayoutEffect",
+    "as": "useDeepCompareLayoutEffect"
+  },
+  {
+    "from": "ahooks",
+    "name": "useDocumentVisibility",
+    "as": "useDocumentVisibility"
+  },
+  {
+    "from": "ahooks",
+    "name": "useDrag",
+    "as": "useDrag"
+  },
+  {
+    "from": "ahooks",
+    "name": "useDrop",
+    "as": "useDrop"
+  },
+  {
+    "from": "ahooks",
+    "name": "useDynamicList",
+    "as": "useDynamicList"
+  },
+  {
+    "from": "ahooks",
+    "name": "useEventEmitter",
+    "as": "useEventEmitter"
+  },
+  {
+    "from": "ahooks",
+    "name": "useEventListener",
+    "as": "useEventListener"
+  },
+  {
+    "from": "ahooks",
+    "name": "useEventTarget",
+    "as": "useEventTarget"
+  },
+  {
+    "from": "ahooks",
+    "name": "useExternal",
+    "as": "useExternal"
+  },
+  {
+    "from": "ahooks",
+    "name": "useFavicon",
+    "as": "useFavicon"
+  },
+  {
+    "from": "ahooks",
+    "name": "useFocusWithin",
+    "as": "useFocusWithin"
+  },
+  {
+    "from": "ahooks",
+    "name": "useFullscreen",
+    "as": "useFullscreen"
+  },
+  {
+    "from": "ahooks",
+    "name": "useFusionTable",
+    "as": "useFusionTable"
+  },
+  {
+    "from": "ahooks",
+    "name": "useGetState",
+    "as": "useGetState"
+  },
+  {
+    "from": "ahooks",
+    "name": "useHistoryTravel",
+    "as": "useHistoryTravel"
+  },
+  {
+    "from": "ahooks",
+    "name": "useHover",
+    "as": "useHover"
+  },
+  {
+    "from": "ahooks",
+    "name": "useInViewport",
+    "as": "useInViewport"
+  },
+  {
+    "from": "ahooks",
+    "name": "useInfiniteScroll",
+    "as": "useInfiniteScroll"
+  },
+  {
+    "from": "ahooks",
+    "name": "useInterval",
+    "as": "useInterval"
+  },
+  {
+    "from": "ahooks",
+    "name": "useIsomorphicLayoutEffect",
+    "as": "useIsomorphicLayoutEffect"
+  },
+  {
+    "from": "ahooks",
+    "name": "useKeyPress",
+    "as": "useKeyPress"
+  },
+  {
+    "from": "ahooks",
+    "name": "useLatest",
+    "as": "useLatest"
+  },
+  {
+    "from": "ahooks",
+    "name": "useLocalStorageState",
+    "as": "useLocalStorageState"
+  },
+  {
+    "from": "ahooks",
+    "name": "useLockFn",
+    "as": "useLockFn"
+  },
+  {
+    "from": "ahooks",
+    "name": "useLongPress",
+    "as": "useLongPress"
+  },
+  {
+    "from": "ahooks",
+    "name": "useMap",
+    "as": "useMap"
+  },
+  {
+    "from": "ahooks",
+    "name": "useMemoizedFn",
+    "as": "useMemoizedFn"
+  },
+  {
+    "from": "ahooks",
+    "name": "useMount",
+    "as": "useMount"
+  },
+  {
+    "from": "ahooks",
+    "name": "useMouse",
+    "as": "useMouse"
+  },
+  {
+    "from": "ahooks",
+    "name": "useMutationObserver",
+    "as": "useMutationObserver"
+  },
+  {
+    "from": "ahooks",
+    "name": "useNetwork",
+    "as": "useNetwork"
+  },
+  {
+    "from": "ahooks",
+    "name": "usePagination",
+    "as": "usePagination"
+  },
+  {
+    "from": "ahooks",
+    "name": "usePrevious",
+    "as": "usePrevious"
+  },
+  {
+    "from": "ahooks",
+    "name": "useRafInterval",
+    "as": "useRafInterval"
+  },
+  {
+    "from": "ahooks",
+    "name": "useRafState",
+    "as": "useRafState"
+  },
+  {
+    "from": "ahooks",
+    "name": "useRafTimeout",
+    "as": "useRafTimeout"
+  },
+  {
+    "from": "ahooks",
+    "name": "useReactive",
+    "as": "useReactive"
+  },
+  {
+    "from": "ahooks",
+    "name": "useRequest",
+    "as": "useRequest"
+  },
+  {
+    "from": "ahooks",
+    "name": "useResetState",
+    "as": "useResetState"
+  },
+  {
+    "from": "ahooks",
+    "name": "useResponsive",
+    "as": "useResponsive"
+  },
+  {
+    "from": "ahooks",
+    "name": "useSafeState",
+    "as": "useSafeState"
+  },
+  {
+    "from": "ahooks",
+    "name": "useScroll",
+    "as": "useScroll"
+  },
+  {
+    "from": "ahooks",
+    "name": "useSelections",
+    "as": "useSelections"
+  },
+  {
+    "from": "ahooks",
+    "name": "useSessionStorageState",
+    "as": "useSessionStorageState"
+  },
+  {
+    "from": "ahooks",
+    "name": "useSet",
+    "as": "useSet"
+  },
+  {
+    "from": "ahooks",
+    "name": "useSetState",
+    "as": "useSetState"
+  },
+  {
+    "from": "ahooks",
+    "name": "useSize",
+    "as": "useSize"
+  },
+  {
+    "from": "ahooks",
+    "name": "useTextSelection",
+    "as": "useTextSelection"
+  },
+  {
+    "from": "ahooks",
+    "name": "useTheme",
+    "as": "useTheme"
+  },
+  {
+    "from": "ahooks",
+    "name": "useThrottle",
+    "as": "useThrottle"
+  },
+  {
+    "from": "ahooks",
+    "name": "useThrottleEffect",
+    "as": "useThrottleEffect"
+  },
+  {
+    "from": "ahooks",
+    "name": "useThrottleFn",
+    "as": "useThrottleFn"
+  },
+  {
+    "from": "ahooks",
+    "name": "useTimeout",
+    "as": "useTimeout"
+  },
+  {
+    "from": "ahooks",
+    "name": "useTitle",
+    "as": "useTitle"
+  },
+  {
+    "from": "ahooks",
+    "name": "useToggle",
+    "as": "useToggle"
+  },
+  {
+    "from": "ahooks",
+    "name": "useTrackedEffect",
+    "as": "useTrackedEffect"
+  },
+  {
+    "from": "ahooks",
+    "name": "useUnmount",
+    "as": "useUnmount"
+  },
+  {
+    "from": "ahooks",
+    "name": "useUnmountedRef",
+    "as": "useUnmountedRef"
+  },
+  {
+    "from": "ahooks",
+    "name": "useUpdate",
+    "as": "useUpdate"
+  },
+  {
+    "from": "ahooks",
+    "name": "useUpdateEffect",
+    "as": "useUpdateEffect"
+  },
+  {
+    "from": "ahooks",
+    "name": "useUpdateLayoutEffect",
+    "as": "useUpdateLayoutEffect"
+  },
+  {
+    "from": "ahooks",
+    "name": "useVirtualList",
+    "as": "useVirtualList"
+  },
+  {
+    "from": "ahooks",
+    "name": "useWebSocket",
+    "as": "useWebSocket"
+  },
+  {
+    "from": "ahooks",
+    "name": "useWhyDidYouUpdate",
+    "as": "useWhyDidYouUpdate"
+  },
+  {
+    "name": "default",
+    "as": "MainLayout",
+    "from": "C:/Users/kathik/Kathir/Practice/React/vite-react-unplugin-auto-import/src/layouts/MainLayout.tsx",
+    "__source": "dir"
+  },
+  {
+    "name": "default",
+    "as": "PageA",
+    "from": "C:/Users/kathik/Kathir/Practice/React/vite-react-unplugin-auto-import/src/views/PageA.tsx",
+    "__source": "dir"
+  },
+  {
+    "name": "TypeA",
+    "as": "TypeA",
+    "from": "C:/Users/kathik/Kathir/Practice/React/vite-react-unplugin-auto-import/src/views/PageA.tsx",
+    "type": true,
+    "__source": "dir"
+  },
+  {
+    "name": "default",
+    "as": "PageB",
+    "from": "C:/Users/kathik/Kathir/Practice/React/vite-react-unplugin-auto-import/src/views/PageB.tsx",
+    "__source": "dir"
+  },
+  {
+    "name": "TypeB",
+    "as": "TypeB",
+    "from": "C:/Users/kathik/Kathir/Practice/React/vite-react-unplugin-auto-import/src/views/PageB.tsx",
+    "type": true,
+    "__source": "dir"
+  },
+  {
+    "name": "useDark",
+    "as": "useDark",
+    "from": "C:/Users/kathik/Kathir/Practice/React/vite-react-unplugin-auto-import/src/hooks/useDark.ts",
+    "__source": "dir"
+  },
+  {
+    "name": "useInput",
+    "as": "useInput",
+    "from": "C:/Users/kathik/Kathir/Practice/React/vite-react-unplugin-auto-import/src/hooks/useInput.ts",
+    "__source": "dir"
+  },
+  {
+    "name": "isMobile",
+    "as": "isMobile",
+    "from": "C:/Users/kathik/Kathir/Practice/React/vite-react-unplugin-auto-import/src/hooks/useInput.ts",
+    "__source": "dir"
+  }
+]

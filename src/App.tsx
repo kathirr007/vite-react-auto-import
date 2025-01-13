@@ -11,6 +11,7 @@ function App() {
       <Button />
       <BaseButton />
       <BaseInput />
+      <pre>{`${!isMobile()}`}</pre>
       <IconLogosReact style={{ fontSize: '3em' }} />
       <header className="App-header">
         <h1>{t('welcome')}</h1>
